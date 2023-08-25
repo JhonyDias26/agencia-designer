@@ -1,0 +1,44 @@
+.limitar-cessao {
+    max-width: 1024px;
+}
+
+.local-experiencias {
+    width: 100%;
+    height: auto;
+    background-color: #F6F8FC;
+}
+
+.experiencias {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.secao-experiencias {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao-experiencias h2 {
+    margin: 50px 0 0 0;
+    font-size: 2.8em;
+}
+
+.linha {
+    width: 200px;
+    border: 2px solid #FDBB43;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragrafo {
+    padding: 0 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
