@@ -2,7 +2,7 @@ import './experiencias.css';
 
 export default function Experiencias() {
     return (
-        <section className='local-experiencias'>
+        <section className='local-experiencias-claro'>
             <section className='experiencias limitar-cessao'>
                 <section className='secao-experiencias'>
                     <h2>Experiências De Trabalho</h2>

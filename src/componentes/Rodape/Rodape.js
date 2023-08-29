@@ -9,7 +9,7 @@ import './rodape.css';
 
 export default function Rodape() {
     return (
-        <footer className="rodape limitar-cessao">
+        <footer className='rodape-claro'>
             <section className="secao-rodape">
                 <div><img src={ImagemLogo} alt='imagem-logo' className='img-logo-rodape' /></div>
                 <div className='txt-rodape'>
@@ -24,7 +24,7 @@ export default function Rodape() {
                     <img src={ImgBe} alt='img-be' className='img-footer' />
                     <img src={ImgGoo} alt='img-google' className='img-footer' />
                 </div>
-                <div><p>Copyright 2023  <a href="https://www.linkedin.com/in/jhony-dias/">Jhony Dias</a></p></div>
+                <div className='copy'><p>Copyright 2023  <a href="https://www.linkedin.com/in/jhony-dias/">Jhony Dias</a></p></div>
             </section>
         </footer>
     );

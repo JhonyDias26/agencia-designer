@@ -8,7 +8,7 @@ export default function Topo (){
     return(
         <header className={`tema-claro`}>
             <img src={Logo} alt='imagem-logo' />
-            <button  className='btn-topo'>
+            <button  className='btn-topo-claro'>
                 <img src= { Moon }  className='img-btn' />
             </button>
         </header>
