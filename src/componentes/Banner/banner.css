@@ -26,7 +26,7 @@
 .secao1-escuro {
     width: 50%;
     height: 100%;
-    background-color: #000;
+    background-color: #000000d8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,10 +45,22 @@
     justify-content: center;
 }
 
-.secao2 {
+.secao2-claro {
     width: 50%;
     height: 100%;
     background-color: #f6f8fc65;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 30px;
+}
+/*Seção 2 Escura*/
+.secao2-escuro {
+    width: 50%;
+    height: 100%;
+    background-color: #58595c65;
+    color: #2f3535;
     display: flex;
     justify-content: center;
     align-items: flex-start;

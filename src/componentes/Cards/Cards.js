@@ -1,7 +1,7 @@
 import './cards.css'
-export default function Cards() {
+export default function Cards(props) {
     return (
-        <section className="secao-cards-claro">
+        <section className={props.passandoVar ? 'secao-cards-escuro' : 'secao-cards-claro'}>
             <section className="cards">
                 <article className="card">
                     <p>JUNHO 2012 - 2016</p>

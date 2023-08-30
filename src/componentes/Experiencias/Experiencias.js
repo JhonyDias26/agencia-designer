@@ -1,8 +1,8 @@
 import './experiencias.css';
 
-export default function Experiencias() {
+export default function Experiencias(props) {
     return (
-        <section className='local-experiencias-claro'>
+        <section className={props.passandoVar ? 'local-experiencias-escuro' : 'local-experiencias-claro'}>
             <section className='experiencias limitar-cessao'>
                 <section className='secao-experiencias'>
                     <h2>Experiências De Trabalho</h2>

@@ -7,9 +7,9 @@ import ImgBe from '../../assets/behance.png';
 import ImgGoo from '../../assets/google-plus.png';
 import './rodape.css';
 
-export default function Rodape() {
+export default function Rodape(props) {
     return (
-        <footer className='rodape-claro'>
+        <footer className={props.passandoVar ? 'rodape-escuro' : 'rodape-claro'}>
             <section className="secao-rodape">
                 <div><img src={ImagemLogo} alt='imagem-logo' className='img-logo-rodape' /></div>
                 <div className='txt-rodape'>
@@ -24,7 +24,7 @@ export default function Rodape() {
                     <img src={ImgBe} alt='img-be' className='img-footer' />
                     <img src={ImgGoo} alt='img-google' className='img-footer' />
                 </div>
-                <div className='copy'><p>Copyright 2023  <a href="https://www.linkedin.com/in/jhony-dias/">Jhony Dias</a></p></div>
+                <div className='copy'><p>Copyright 2023  <a href="https://www.linkedin.com/in/jhony-dias/" target='_blank'>Jhony Dias</a></p></div>
             </section>
         </footer>
     );

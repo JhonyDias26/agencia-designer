@@ -2,19 +2,16 @@ import './topo.css';
 import Logo from '../../assets/logo.png';
 import Moon from '../../assets/moon.png';
 import Sun from '../../assets/sun.png';
-import { useState } from 'react';
 
-export default function Topo() {
-    const [corTema, setCorTema] = useState(false);
-    function alterarCor() {
-        setCorTema(!corTema)
-    }
+
+export default function Topo(props) {
+
 
     return (
-        <header className={corTema ? `tema-escuro` : `tema-claro`}>
+        <header className={props.passandoVar ? `tema-escuro` : `tema-claro`}>
             <img src={Logo} alt='imagem-logo' />
-            <button onClick={alterarCor} className={ corTema ? 'btn-topo-escuro' : 'btn-topo-claro'}>
-                <img src={Moon} className='img-btn' />
+            <button onClick={props.passandoFunc} className={props.passandoVar ? 'btn-topo-escuro' : 'btn-topo-claro'}>
+                <img src={props.passandoVar ? Sun : Moon} className='img-btn' />
             </button>
         </header>
     );
